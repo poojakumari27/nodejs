@@ -1,0 +1,30 @@
+let myDate=new Date()
+console.log(myDate)
+console.log(myDate.toString())
+console.log(myDate.toLocaleDateString())
+console.log(myDate.toJSON())
+console.log(myDate.toTimeString())
+console.log(myDate.toUTCString())
+console.log(myDate.getTimezoneOffset())
+console.log(typeof myDate)
+//date type is object
+let createdate= new Date(2023,3,23)
+let createdat= new Date("2023-03-23")
+
+//month starts from 0=jan,1=feb..
+let date= new Date(2023,3,23,4,5)
+console.log(date.toDateString())
+console.log(date.toLocaleDateString())
+console.log(date.toLocaleString())//to print date and time also
+let date2=new Date("02-2-2024")
+console.log(date2.toLocaleString())
+let myTimeStamp=Date.now()
+console.log(myTimeStamp)
+console.log(date2.getTime())
+console.log(Date.now())//time diff in millisecinds due to above code
+let datenow=new Date()
+console.log(datenow)
+console.log(datenow.getFullYear())
+console.log(datenow.getHours())
+console.log(datenow.getSeconds())
+console.log(datenow.getMilliseconds())
