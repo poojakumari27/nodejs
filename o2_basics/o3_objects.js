@@ -36,7 +36,9 @@ const identity = {
 };
 
 console.log(Object.values(identity)); // Outputs: ["Pooja", "pooja kumari", 9, "Amritsar"]
-console.log(Object.keys(identity));   // Outputs: ["name", "fullname", "age", "location"]
+console.log(Object.keys(identity));  
+console.log(Object.entries(identity));  
+ // Outputs: ["name", "fullname", "age", "location"]
 console.log(identity.name);           // Outputs: "Pooja"
 console.log(identity["fullname"]);    // Outputs: "pooja kumari"
 console.log(identity);                // Outputs: {name: "Pooja", fullname: "pooja kumari", age: 9, location: "Amritsar"}
@@ -65,5 +67,5 @@ console.log(nam.name1)
  }
  console.log(identity.greeting) //it will show function is annoymous
  console.log(identity.greeting())//it will give the output as we ware are here using ()
- 
+
  
